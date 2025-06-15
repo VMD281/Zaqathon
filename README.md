@@ -41,13 +41,24 @@ This project is a FastAPI-based backend powered by Claude AI (Anthropic) that in
     cd zaqathon
    ```
 2. **Create a virtual environment**:
+   ```bash
    python -m venv venv
    source venv/bin/activate # Windows: venv\Scripts\activate
+   ```
 3. **Install dependencies**:
+   ```bash
    pip install -r requirements.txt
    Copy .env.example → .env
+   ```
 4. **Set up environment variables:**:
+
    Copy .env.example → .env
+
+   ```bash
    ANTHROPIC_API_KEY="your_key_here"
+   ```
+
 5. **Running the app:**:
+   ```bash
    uvicorn main:app --reload
+   ```
