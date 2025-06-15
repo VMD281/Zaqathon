@@ -48,7 +48,7 @@ This project is a FastAPI-based backend powered by Claude AI (Anthropic) that in
 3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
-   Copy .env.example → .env
+   
    ```
 4. **Set up environment variables:**:
 
